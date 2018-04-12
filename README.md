@@ -1,3 +1,5 @@
+# Capstone Project "Lynzy" mp3 Player
+This is a course project for the successful completion of ISTA 220, 420, 322, 421, and 422 as part of the Microsoft Software and Systems Academy, Jacksonville Cohort starting 8 JAN, 2018.
 ## Purpose
 •	The purpose of the Lynzy application is to play music files and allow users to easily manipulate and maintain their music libraries.
 ## Overall description
