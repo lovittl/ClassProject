@@ -14,4 +14,4 @@ This is a course project for the successful completion of ISTA 220, 420, 322, 42
             The software is to be designed for use on a pc.
 ## Directory Structure
 • docs contains design and requirements documentation
-• coded contains the Visual Studio solution
+• code contains the Visual Studio solution
