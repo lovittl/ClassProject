@@ -8,5 +8,6 @@ namespace Lynzy.ClassLibrary
 {
     class PlayerClass
     {
+
     }
 }
