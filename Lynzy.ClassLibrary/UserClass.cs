@@ -8,5 +8,7 @@ namespace Lynzy.ClassLibrary
 {
     class UserClass
     {
+        //public DbSet<user> User { get; set; }
+        //public DbSet<UserInfo> UserInfo { get; set; }
     }
 }
