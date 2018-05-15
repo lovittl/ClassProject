@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity;
 
 namespace Lynzy.ClassLibrary
 {
     class SongFiles
     {
-        
         public string Name { get; set; }
         public string Title { get; set; }
         [Column("Contributing Artists")]
