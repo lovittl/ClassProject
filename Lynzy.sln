@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.ClassLibrary", "Lynzy.ClassLibrary\Lynzy.ClassLibrary.csproj", "{5DCB3E2C-3298-4677-A180-6ED079140CC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.Domain", "Lynzy.ClassLibrary\Lynzy.Domain.csproj", "{5DCB3E2C-3298-4677-A180-6ED079140CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.UnitTestProject", "Lynzy.UnitTestProject\Lynzy.UnitTestProject.csproj", "{CD18B8C3-D6F2-4D70-91F4-31618422B089}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.WebUI", "Lynzy.WebApplication\Lynzy.WebUI.csproj", "{96783C49-A058-4E09-91E7-BECAD4B637B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.WebApplication", "Lynzy.WebApplication\Lynzy.WebApplication.csproj", "{96783C49-A058-4E09-91E7-BECAD4B637B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.UnitTests", "Lynzy.UnitTests\Lynzy.UnitTests.csproj", "{FB89596F-66DF-4675-BBEA-BBC808D150A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{5DCB3E2C-3298-4677-A180-6ED079140CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DCB3E2C-3298-4677-A180-6ED079140CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DCB3E2C-3298-4677-A180-6ED079140CC5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD18B8C3-D6F2-4D70-91F4-31618422B089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD18B8C3-D6F2-4D70-91F4-31618422B089}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD18B8C3-D6F2-4D70-91F4-31618422B089}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD18B8C3-D6F2-4D70-91F4-31618422B089}.Release|Any CPU.Build.0 = Release|Any CPU
 		{96783C49-A058-4E09-91E7-BECAD4B637B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{96783C49-A058-4E09-91E7-BECAD4B637B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96783C49-A058-4E09-91E7-BECAD4B637B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96783C49-A058-4E09-91E7-BECAD4B637B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB89596F-66DF-4675-BBEA-BBC808D150A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB89596F-66DF-4675-BBEA-BBC808D150A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB89596F-66DF-4675-BBEA-BBC808D150A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB89596F-66DF-4675-BBEA-BBC808D150A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

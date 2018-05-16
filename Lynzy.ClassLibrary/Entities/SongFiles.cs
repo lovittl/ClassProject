@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 
-namespace Lynzy.ClassLibrary
+namespace Lynzy.Domain
 {
-    class SongFiles
+    public class SongFiles
     {
         public string Name { get; set; }
         public string Title { get; set; }
