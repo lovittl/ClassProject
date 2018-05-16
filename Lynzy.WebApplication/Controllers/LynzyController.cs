@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Lynzy.Domain.Abstract;
+using Lynzy.Domain.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +10,12 @@ namespace Lynzy.WebApplication.Controllers
 {
     public class LynzyController : Controller
     {
+        private ISongRepository DB = new EFSongRepository();
         // GET: Lynzy
         public ActionResult Index()
         {
-            return View();
+            
+            return View(DB.Song);
         }
     }
 }

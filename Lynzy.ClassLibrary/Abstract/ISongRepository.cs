@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lynzy.Domain;
+using Lynzy.Domain.Entities;
 
-namespace Lynzy.ClassLibrary.Abstract
+namespace Lynzy.Domain.Abstract
 {
-    interface ISongRepository
+    public interface ISongRepository
     {
         IEnumerable<SongFiles> Song { get; }
     }

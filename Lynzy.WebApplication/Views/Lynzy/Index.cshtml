@@ -1,4 +1,7 @@
-﻿@{
+﻿@using Lynzy.Domain.Entities
+@model IEnumerable<SongFiles>
+
+@{
     ViewBag.Title = "Index";
 }
 
@@ -7,7 +10,7 @@
 <div class="col-md-2" style="border:2px black solid;">
     file chooser
 </div>
-
+    
 
 <div class="col-md-8" style="border:2px black solid;">
     <div class="jumbotron">
@@ -19,8 +22,16 @@
 
 
         <p>
-            this is some text
+           Click on the song to play
         </p>
+
+        @foreach (var S in Model)
+        {
+            <h3>
+                @S.Name
+            </h3>
+        }
+
         <div class="media-player">
             <audio controls>
                 <source src="The Eagles - Hotel California.mp3">
@@ -28,7 +39,7 @@
         </div>
 
 
-    <!--
+        <!--
     <audio controls>
         <source src="horse.ogg" type="audio/ogg">
         <source src="horse.mp3" type="audio/mpeg">
