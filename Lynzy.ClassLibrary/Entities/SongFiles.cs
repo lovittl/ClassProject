@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 
+//Properties to access data base table dbo.Song
 namespace Lynzy.Domain.Entities
 {
     [Table("dbo.Song")]
