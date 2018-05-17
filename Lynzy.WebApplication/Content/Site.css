@@ -3,6 +3,7 @@
     padding-bottom: 20px;
 }
 
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -25,3 +26,17 @@ textarea {
     text-align: center;
     background-color: grey;
 }
+
+.bg {
+    background-color: darkblue;
+}
+
+.mybg {
+    background-color: darkcyan;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+

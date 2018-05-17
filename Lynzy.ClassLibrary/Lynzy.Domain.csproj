@@ -77,7 +77,6 @@
     <Compile Include="Entities\SongFiles.cs" />
     <Compile Include="UserClass.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

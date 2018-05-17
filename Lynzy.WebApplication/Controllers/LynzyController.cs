@@ -12,9 +12,12 @@ namespace Lynzy.WebApplication.Controllers
     {
         private ISongRepository DB = new EFSongRepository();
         // GET: Lynzy
-        public ActionResult Index()
+        public ActionResult Index(int songId = 1)
         {
-            
+            ViewBag.currentSongName = DB.Song
+                                        .Where(s => s.SID == songId)
+                                        .Select(s => s.Name)
+                                        .FirstOrDefault();
             return View(DB.Song);
         }
     }

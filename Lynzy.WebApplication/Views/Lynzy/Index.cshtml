@@ -5,66 +5,60 @@
     ViewBag.Title = "Index";
 }
 
+<style type="text/css">
+    body {
+        background: navy !important;
+    }
+    /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+
 <h2>Lynzy</h2>
 
 <div class="col-md-2" style="border:2px black solid;">
     file chooser
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Select Album</a></p>
 </div>
-    
 
-<div class="col-md-8" style="border:2px black solid;">
-    <div class="jumbotron">
+<div class="col-md-8" style="border:2px black solid; background-color:aqua;">
+    <div class="jumbotron mybg">
         <h1>Lynzy</h1>
-        <p>...</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-
-
-
 
         <p>
-           Select the song to play
+            Select the song to play
         </p>
-        <h3>
-            <selct>
-               <p>click</p>
-            </selct>
-            
-
-        </h3>
         
-
-
-        @foreach (var S in Model)
-        {
-            <h3>
-                
-                @S.Name
-                                
-            </h3>
-        }
-
         <div class="media-player">
             <audio controls>
-                <source src="The Eagles - Hotel California.mp3">
+                <source src="/songs/@ViewBag.currentSongName">
             </audio>
         </div>
 
-
-        <!--
-    <audio controls>
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    -->
-
+        <table style="width:100%">
+            <tr>
+                <th>Title</th>
+                <th>Contributing Artists</th>
+                <th>Album</th>
+                <th>Length</th>
+            </tr>
+            @foreach (var song in Model)
+            {
+            <tr>
+                <td><a href="?songId=@song.SID">@song.Title</a></td>
+                <td>@song.ContributingArtists</td>
+                <td>@song.Album</td>
+                <td>@song.Length</td>
+            </tr>
+            }
+        </table>
     </div>
 </div>
-    
 
-    <div class="col-md-2" style="border:2px black solid;">
-        Create PlayLists
-    </div>
+
+<div class="col-md-2" style="border:2px black solid;">
+    Create PlayLists
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">New Playlist</a></p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Load Playlist</a></p>
+</div>
 
 
 
