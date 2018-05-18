@@ -14,18 +14,12 @@
 
 <h2>Lynzy</h2>
 
-<div class="col-md-2" style="border:2px black solid;">
-    file chooser
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Select Album</a></p>
-</div>
 
-<div class="col-md-8" style="border:2px black solid; background-color:aqua;">
+<div class="col-md-8" style="border:2px black solid">
     <div class="jumbotron mybg">
         <h1>Lynzy</h1>
 
-        <p>
-            Select the song to play
-        </p>
+        <p>Select the song to play</p>
         
         <div class="media-player">
             <audio controls>
@@ -41,24 +35,19 @@
                 <th>Length</th>
             </tr>
             @foreach (var song in Model)
-            {
-            <tr>
-                <td><a href="?songId=@song.SID">@song.Title</a></td>
-                <td>@song.ContributingArtists</td>
-                <td>@song.Album</td>
-                <td>@song.Length</td>
-            </tr>
-            }
+    {
+        <tr>
+            <td><a href="?songId=@song.SID">@song.Title</a></td>
+            <td>@song.ContributingArtists</td>
+            <td>@song.Album</td>
+            <td>@song.Length</td>
+        </tr>
+}
         </table>
     </div>
 </div>
 
 
-<div class="col-md-2" style="border:2px black solid;">
-    Create PlayLists
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">New Playlist</a></p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Load Playlist</a></p>
-</div>
 
 
 
