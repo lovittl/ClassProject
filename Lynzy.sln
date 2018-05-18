@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.WebUI", "Lynzy.WebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lynzy.UnitTests", "Lynzy.UnitTests\Lynzy.UnitTests.csproj", "{FB89596F-66DF-4675-BBEA-BBC808D150A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Files", "SQL Files", "{C0C26CFF-953E-49B6-8642-7A78DC6B96A1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive - Embry-Riddle Aeronautical University\Lynzy.ssmssln = ..\..\..\OneDrive - Embry-Riddle Aeronautical University\Lynzy.ssmssln
+		..\..\..\LynzyLDB.mdf = ..\..\..\LynzyLDB.mdf
+		..\..\..\LynzyLDB_log.ldf = ..\..\..\LynzyLDB_log.ldf
+		..\..\..\OneDrive - Embry-Riddle Aeronautical University\LynzyzInsertz.sql = ..\..\..\OneDrive - Embry-Riddle Aeronautical University\LynzyzInsertz.sql
+		..\..\..\OneDrive - Embry-Riddle Aeronautical University\LynzyzProjectStep7.sql = ..\..\..\OneDrive - Embry-Riddle Aeronautical University\LynzyzProjectStep7.sql
+		..\..\..\OneDrive - Embry-Riddle Aeronautical University\LynzyzSelectz.sql = ..\..\..\OneDrive - Embry-Riddle Aeronautical University\LynzyzSelectz.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
